@@ -1,4 +1,4 @@
-import styles from './Header.module.css';
+import styles from './Header.module.scss';
 import { Link } from 'react-router-dom';
 import { GiBullHorns } from 'react-icons/gi';
 import { FaHamburger } from 'react-icons/fa';

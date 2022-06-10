@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--header-height);
+  padding: 0 1rem;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.navLinks__link {
+  padding: 0 1rem;
+}/*# sourceMappingURL=Header.module.css.map */
