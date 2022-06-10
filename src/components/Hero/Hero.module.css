@@ -1,0 +1,4 @@
+.hero {
+  position: relative;
+  height: var(--main-content-height);
+}
