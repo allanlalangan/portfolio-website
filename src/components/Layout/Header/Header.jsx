@@ -1,33 +1,31 @@
 import styles from './Header.module.scss';
 import { Link } from 'react-router-dom';
 import { GiBullHorns } from 'react-icons/gi';
-import { FaHamburger } from 'react-icons/fa';
+import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Header = () => {
   return (
     <header className={styles['header']}>
       <Link to='/'>
         <h1>
-          <GiBullHorns />
+          <GiBullHorns className={styles['home-icon']} />
         </h1>
       </Link>
       <nav>
-        <ul className={styles['navLinks']}>
+        <ul className={styles['nav-links']}>
           <Link to='/'>
-            <li className={styles['navLinks__link']}>
-              More about <span>me</span>
-            </li>
+            <li className={styles['nav-links__link']}>More about me</li>
           </Link>
           <Link to='/'>
-            <li className={styles['navLinks__link']}>Contact</li>
+            <li className={styles['nav-links__link']}>Contact</li>
           </Link>
           <Link to='/'>
-            <li className={styles['navLinks__link']}>CV</li>
+            <li className={styles['nav-links__link']}>CV</li>
           </Link>
-          <button>
-            <FaHamburger />
-          </button>
         </ul>
+        <button className={styles['menu-button']}>
+          <GiHamburgerMenu className={styles['burger-icon']} />
+        </button>
       </nav>
     </header>
   );

@@ -1,0 +1,16 @@
+:root {
+  --background-color: hsl(205, 60%, 90%);
+  --light-grey: hsl(40, 15%, 95%);
+
+  --prim-color: hsl(250, 50%, 40%);
+  --sec-color: hsl(10, 60%, 65%);
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+$color__prim: hsl(250, 50%, 40%);
+$color__sec: hsl(10, 60%, 65%);
+$color__ter: hsl(205, 60%, 60%);
+$color__text: hsl(250, 50%, 25%);

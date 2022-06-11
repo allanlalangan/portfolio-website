@@ -1,17 +1,32 @@
+@use '../../../styles/layout/' as layout;
+@use '../../../styles/abstracts/' as abstracts;
+@use '../../../styles/util/' as util;
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  height: var(--header-height);
-  padding: 0 1rem;
+  height: layout.$headerHeight;
 }
 
-.navLinks {
+.menu-button {
+  color: abstracts.$color__ter;
+
+  @include util.breakpoint('>=md') {
+    display: none;
+  }
+}
+
+.nav-links {
   display: flex;
   align-items: center;
   justify-content: start;
+  display: none;
+
+  @include util.breakpoint('>=md') {
+    display: flex;
+  }
 }
-.navLinks__link {
+.nav-links__link {
   padding: 0 1rem;
 }
