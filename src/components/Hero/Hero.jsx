@@ -1,5 +1,5 @@
 import { about } from '../../static/content';
-import styles from './Hero.module.css';
+import styles from './Hero.module.scss';
 
 const Hero = () => {
   return (

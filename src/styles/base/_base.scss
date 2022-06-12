@@ -1,0 +1,12 @@
+@use '../abstracts/colors' as colors;
+@use '../util/' as util;
+
+body {
+  background-color: colors.$bg;
+  font-family: util.$font;
+  color: colors.$text;
+}
+
+main {
+  padding: 1rem;
+}

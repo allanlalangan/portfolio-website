@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from '../../pages';
-import ProjectsPage from '../../pages/projects';
+import HomePage from './pages';
+import ProjectsPage from './pages/projects';
 
-import Layout from '../Layout/Layout';
+import Layout from './components/Layout/Layout';
 import './App.module.scss';
 
 const App = () => {

@@ -1,29 +1,27 @@
-@use '../../../styles/layout/' as layout;
-@use '../../../styles/abstracts/' as abstracts;
-@use '../../../styles/util/' as util;
+@use '../../../styles/abstracts/colors' as colors;
+@use '../../../styles/abstracts/mixins' as mixins;
 
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: layout.$headerHeight;
+  height: 10vh;
+  padding: 0 1rem;
 }
 
 .menu-button {
-  color: abstracts.$color__ter;
+  color: colors.$ter;
 
-  @include util.breakpoint('>=md') {
+  @include mixins.breakpoint('>=md') {
     display: none;
   }
 }
 
 .nav-links {
-  display: flex;
-  align-items: center;
-  justify-content: start;
+  @include mixins.flex-row();
   display: none;
 
-  @include util.breakpoint('>=md') {
+  @include mixins.breakpoint('>=md') {
     display: flex;
   }
 }
