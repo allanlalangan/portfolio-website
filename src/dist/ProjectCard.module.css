@@ -1,0 +1,18 @@
+.project__previews--container {
+  display: flex;
+}
+
+.project__previews {
+  border: 1px solid hsl(250deg, 50%, 25%);
+  border-radius: 0.5rem;
+}
+
+.project__previews-lg {
+  height: 10rem;
+  width: 30%;
+}
+
+.project__previews-sm {
+  height: 10rem;
+  width: 20%;
+}/*# sourceMappingURL=ProjectCard.module.css.map */

@@ -1,3 +1,4 @@
+@use '../../styles/abstracts/colors' as colors;
 @use '../../styles/abstracts/variables' as var;
 @use '../../styles/abstracts/mixins' as mixins;
 
@@ -7,4 +8,8 @@
 
   @include mixins.flex-column();
   justify-content: center;
+}
+
+.action-button {
+  width: 25%;
 }

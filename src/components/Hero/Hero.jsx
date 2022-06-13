@@ -8,7 +8,7 @@ const Hero = () => {
       <h1>{about.name}</h1>
       <p>{about.title}</p>
       <p>{about.brief}</p>
-      <button>{about.actionCall}</button>
+      <button className={styles['action-button']}>{about.actionCall}</button>
     </section>
   );
 };

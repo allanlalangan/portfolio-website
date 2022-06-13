@@ -1,2 +1,5 @@
 $mainContentHeight: 90vh;
 $headerHeight: (100vh - $mainContentHeight);
+
+/* offset-x | offset-y | blur-radius | spread-radius | color */
+$boxShadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);

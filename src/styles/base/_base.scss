@@ -2,11 +2,21 @@
 @use '../util/' as util;
 
 body {
-  background-color: colors.$bg;
   font-family: util.$font;
   color: colors.$text;
+
+  background: colors.$gradientBg;
 }
 
 main {
   padding: 1rem;
+}
+
+button {
+  background-color: inherit;
+
+  border: 1px solid colors.$prim;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
 }

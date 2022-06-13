@@ -1,0 +1,19 @@
+@use '../../styles/abstracts/colors' as colors;
+@use '../../styles/abstracts/mixins' as mixins;
+
+.project__previews--container {
+  @include mixins.flex-row();
+}
+
+.project__previews {
+  border: 1px solid colors.$text;
+  border-radius: 0.5rem;
+}
+.project__previews-lg {
+  height: 10rem;
+  width: 30%;
+}
+.project__previews-sm {
+  height: 10rem;
+  width: 20%;
+}

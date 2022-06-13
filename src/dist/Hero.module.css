@@ -1,7 +1,12 @@
+/* offset-x | offset-y | blur-radius | spread-radius | color */
 .hero {
   position: relative;
   height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.action-button {
+  width: 25%;
 }/*# sourceMappingURL=Hero.module.css.map */
