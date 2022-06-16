@@ -1,1 +1,1 @@
-{"version":3,"sources":["../components/ui/Divider/Divider.module.scss","../styles/abstracts/_colors.scss","Divider.module.css"],"names":[],"mappings":"AAEA;EACE,uCCIQ;EDHR,WAAA;EACA,WAAA;AEDF","file":"Divider.module.css"}
+{"version":3,"sources":["../components/ui/Divider/Divider.module.scss","../styles/abstracts/_colors.scss","Divider.module.css"],"names":[],"mappings":"AAEA;EACE,uCCOQ;EDNR,WAAA;EACA,WAAA;AEDF","file":"Divider.module.css"}

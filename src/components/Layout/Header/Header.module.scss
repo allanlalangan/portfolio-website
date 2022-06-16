@@ -3,35 +3,50 @@
 @use '../../../styles/abstracts/mixins' as mixins;
 
 .header {
+  width: 100%;
+  position: fixed;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 8vh;
-  padding: 0 1rem;
-  box-shadow: var.$boxShadow;
-  background-color: colors.$bg;
+  height: var.$headerHeight;
+  padding-left: 1rem;
+  box-shadow: var.$headerShadow;
+  background-color: colors.$headerBg;
+  z-index: 1000;
 }
 
 .home-icon {
+  color: colors.$prim;
   display: flex;
 }
 
 .menu-button {
-  color: colors.$ter;
+  color: colors.$prim;
 
   @include mixins.breakpoint('>=md') {
     display: none;
   }
 }
 
+.nav {
+  height: 100%;
+}
+
 .nav-links {
-  @include mixins.flex-row();
+  // on mobile
   display: none;
 
   @include mixins.breakpoint('>=md') {
-    display: flex;
+    @include mixins.flex-row();
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    border-bottom: 2px solid colors.$sec;
   }
-}
-.nav-links__link {
-  padding: 0 1rem;
+  .nav-links__link {
+    padding: 0 1rem;
+  }
 }

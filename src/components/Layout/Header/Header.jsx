@@ -7,11 +7,13 @@ const Header = () => {
   return (
     <header className={styles['header']}>
       <Link to='/'>
-        <h1>
-          <GiBullHorns className={styles['home-icon']} />
-        </h1>
+        <div>
+          <h1>
+            <GiBullHorns className={styles['home-icon']} />
+          </h1>
+        </div>
       </Link>
-      <nav>
+      <nav className={styles['nav']}>
         <ul className={styles['nav-links']}>
           <Link to='/'>
             <li className={styles['nav-links__link']}>More about me</li>

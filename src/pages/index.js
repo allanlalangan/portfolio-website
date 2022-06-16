@@ -8,12 +8,11 @@ const Home_Page = () => {
       <Hero />
       <Divider />
       <h1 className={styles.heading}>Recent Work</h1>
-      <section className={styles.section}>
-        <FeaturedProject />
-        {projects.map((project) => (
-          <ProjectCard project={project} />
-        ))}
-      </section>
+      <FeaturedProject />
+      <Divider />
+      {projects.map((project) => (
+        <ProjectCard project={project} />
+      ))}
       <button>{about.actionCall_2}</button>
     </>
   );

@@ -2,7 +2,7 @@ import styles from './ProjectCard.module.scss';
 
 const ProjectCard = ({ project: { title, description, tech } }) => {
   return (
-    <li>
+    <>
       <h3>{title}</h3>
       <article>
         <section className={styles['project__previews--container']}>
@@ -24,7 +24,7 @@ const ProjectCard = ({ project: { title, description, tech } }) => {
           </ul>
         </section>
       </article>
-    </li>
+    </>
   );
 };
 export default ProjectCard;

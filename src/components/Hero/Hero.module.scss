@@ -3,7 +3,6 @@
 @use '../../styles/abstracts/mixins' as mixins;
 
 .hero {
-  position: relative;
   height: var.$mainContentHeight;
 
   @include mixins.flex-column();
@@ -31,16 +30,19 @@
   padding-left: 1rem;
 }
 .brief {
-  color: colors.$prim;
+  color: colors.$sec;
   font-size: 2rem;
   font-weight: 700;
 }
 
 .action-button {
-  width: 11rem;
-
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   margin: 1rem auto;
   color: colors.$contrastText;
   background-color: colors.$prim;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
+  padding: 1rem 2rem;
 }

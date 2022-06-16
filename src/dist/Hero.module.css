@@ -1,7 +1,6 @@
 /* offset-x | offset-y | blur-radius | spread-radius | color */
 .hero {
-  position: relative;
-  height: 90vh;
+  height: 92vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,22 +22,26 @@
 }
 
 .title {
-  color: hsl(215deg, 70%, 50%);
+  color: hsl(220deg, 70%, 50%);
   font-size: 2rem;
   font-weight: 600;
   padding-left: 1rem;
 }
 
 .brief {
-  color: hsl(215deg, 70%, 50%);
+  color: hsl(240deg, 75%, 60%);
   font-size: 2rem;
   font-weight: 700;
 }
 
 .action-button {
-  width: 11rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   margin: 1rem auto;
   color: hsl(230deg, 75%, 95%);
-  background-color: hsl(215deg, 70%, 50%);
-  border-radius: 2rem;
+  background-color: hsl(220deg, 70%, 50%);
+  border-radius: 1.5rem;
+  padding: 1rem 2rem;
 }/*# sourceMappingURL=Hero.module.css.map */

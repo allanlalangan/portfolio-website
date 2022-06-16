@@ -1,4 +1,5 @@
 @use '../abstracts/colors' as colors;
+@use '../abstracts/variables' as var;
 @use '../util/' as util;
 
 body {
@@ -10,14 +11,11 @@ body {
 }
 
 main {
-  padding: 1rem;
+  margin-top: var.$headerHeight;
 }
 
 button {
   background-color: inherit;
-
-  border: 1px solid colors.$prim;
-  border-radius: 0.5rem;
-  padding: 0.5rem;
+  border: none;
   cursor: pointer;
 }
