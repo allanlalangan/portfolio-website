@@ -3,10 +3,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 10vh;
+  height: 8vh;
   padding: 0 1rem;
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
   background-color: hsl(205deg, 60%, 90%);
+}
+
+.home-icon {
+  display: flex;
 }
 
 .menu-button {

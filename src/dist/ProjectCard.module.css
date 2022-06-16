@@ -3,16 +3,24 @@
 }
 
 .project__previews {
-  border: 1px solid hsl(250deg, 50%, 25%);
+  border: 1px solid hsl(230deg, 40%, 25%);
   border-radius: 0.5rem;
 }
 
 .project__previews-lg {
-  height: 10rem;
-  width: 30%;
+  height: 40vh;
+  width: 75vw;
 }
 
 .project__previews-sm {
-  height: 10rem;
-  width: 20%;
+  height: 13rem;
+  width: 15%;
+}
+
+.project__tech {
+  display: flex;
+}
+
+.project__tech__item {
+  padding-left: 1rem;
 }/*# sourceMappingURL=ProjectCard.module.css.map */

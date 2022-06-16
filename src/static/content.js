@@ -1,8 +1,10 @@
 export const about = {
   name: 'Allan Lalangan',
+  alias: 'Allan LaDev',
   title: 'Web Developer',
   greeting: 'Hello, World! I am',
-  brief: 'I build responsive, beautiful, intuitive and fun user experiences',
+  brief: 'Responsive, beautiful, intuitive and fun user experiences',
+  brief_2: 'I build things!',
   actionCall: 'View my work',
   actionCall_2: "Let's build together! ",
   actionCall_3: 'I can show you better than I can tell you...',
@@ -157,26 +159,26 @@ export const skills = [
 ];
 
 export const projects = [
-  {
-    title: 'Nomad Travel',
-    description:
-      'SPA created with GoogleMaps and Travel APIs. Fetches popular restaurants, hotels, and attractions within map window boundaries. Autocomplete search allows users to quickly search and navigate anywhere on the map. Places marked on the map can be filtered by rating, price and other categories.',
-    tech: ['react', 'css', 'materialui', 'api', 'google maps'],
-  },
-  {
-    title: 'project.Me',
-    description:
-      'A to-do app, but with a twist. Fullstack app allows registered users to save tasks, goals, and other activities. Users progress through goals as tasks are completed. Basic backend stores and protects unique user data in a database.',
-    tech: [
-      'express',
-      'mongoDb',
-      'react',
-      'css',
-      'redux',
-      'api',
-      'authentication',
-    ],
-  },
+  // {
+  //   title: 'Nomad Travel',
+  //   description:
+  //     'SPA created with GoogleMaps and Travel APIs. Fetches popular restaurants, hotels, and attractions within map window boundaries. Autocomplete search allows users to quickly search and navigate anywhere on the map. Places marked on the map can be filtered by rating, price and other categories.',
+  //   tech: ['react', 'css', 'materialui', 'api', 'google maps'],
+  // },
+  // {
+  //   title: 'project.Me',
+  //   description:
+  //     'A to-do app, but with a twist. Fullstack app allows registered users to save tasks, goals, and other activities. Users progress through goals as tasks are completed. Basic backend stores and protects unique user data in a database.',
+  //   tech: [
+  //     'express',
+  //     'mongoDb',
+  //     'react',
+  //     'css',
+  //     'redux',
+  //     'api',
+  //     'authentication',
+  //   ],
+  // },
   // {
   //   title: 'La Bodega',
   //   description:

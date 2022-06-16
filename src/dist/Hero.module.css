@@ -7,6 +7,38 @@
   justify-content: center;
 }
 
+.greeting,
+.name,
+.title {
+  margin-left: 1rem;
+}
+
+.greeting {
+  font-size: 1rem;
+}
+
+.name {
+  font-size: 4rem;
+  font-weight: 750;
+}
+
+.title {
+  color: hsl(215deg, 70%, 50%);
+  font-size: 2rem;
+  font-weight: 600;
+  padding-left: 1rem;
+}
+
+.brief {
+  color: hsl(215deg, 70%, 50%);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
 .action-button {
-  width: 25%;
+  width: 11rem;
+  margin: 1rem auto;
+  color: hsl(230deg, 75%, 95%);
+  background-color: hsl(215deg, 70%, 50%);
+  border-radius: 2rem;
 }/*# sourceMappingURL=Hero.module.css.map */

@@ -8,14 +8,10 @@ const ProjectCard = ({ project: { title, description, tech } }) => {
         <section className={styles['project__previews--container']}>
           <figure
             className={`${styles['project__previews']} ${styles['project__previews-lg']}`}
-          >
-            {/* <img src='/' alt='placeholder' /> */}
-          </figure>
-          <figure
+          ></figure>
+          {/* <figure
             className={`${styles['project__previews']} ${styles['project__previews-sm']}`}
-          >
-            {/* <img src='/' alt='placeholder' /> */}
-          </figure>
+          ></figure> */}
         </section>
         <section className={styles['project__summary']}>
           <p className={styles['project__description']}>{description}</p>

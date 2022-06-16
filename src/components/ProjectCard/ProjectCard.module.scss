@@ -10,10 +10,18 @@
   border-radius: 0.5rem;
 }
 .project__previews-lg {
-  height: 10rem;
-  width: 30%;
+  height: 40vh;
+  width: 75vw;
 }
 .project__previews-sm {
-  height: 10rem;
-  width: 20%;
+  height: 13rem;
+  width: 15%;
+}
+
+.project__tech {
+  display: flex;
+}
+
+.project__tech__item {
+  padding-left: 1rem;
 }

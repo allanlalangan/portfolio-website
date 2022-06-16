@@ -2,6 +2,7 @@
 @use '../util/' as util;
 
 body {
+  font-size: 18px;
   font-family: util.$font;
   color: colors.$text;
 

@@ -6,10 +6,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 10vh;
+  height: 8vh;
   padding: 0 1rem;
   box-shadow: var.$boxShadow;
   background-color: colors.$bg;
+}
+
+.home-icon {
+  display: flex;
 }
 
 .menu-button {
