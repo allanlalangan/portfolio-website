@@ -11,7 +11,11 @@ body {
 }
 
 main {
-  margin-top: var.$headerHeight;
+  padding: var.$headerHeight 0 1rem 0;
+}
+
+section {
+  padding: 0 1rem;
 }
 
 button {

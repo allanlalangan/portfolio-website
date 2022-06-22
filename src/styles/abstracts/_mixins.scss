@@ -1,4 +1,5 @@
 @use '../util/breakpoints' as *;
+@use '../abstracts/colors' as colors;
 
 @mixin breakpoint($size) {
   @media (min-width: map-get($breakpoints-up, $size)) {
@@ -13,4 +14,25 @@
 @mixin flex-column() {
   display: flex;
   flex-direction: column;
+}
+
+@mixin button-text() {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+@mixin filled-button($backgroundColor) {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: colors.$contrastText;
+  background-color: $backgroundColor;
+  border-radius: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+@mixin shadow($offsetX, $offsetY, $blur, $spread, $alpha) {
+  box-shadow: $offsetX $offsetY $blur $spread rgba(0, 0, 0, $alpha);
 }

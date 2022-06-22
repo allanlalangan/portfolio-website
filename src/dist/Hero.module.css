@@ -6,42 +6,60 @@
   justify-content: center;
 }
 
-.greeting,
+@media (min-width: 56.25em) {
+  .greeting,
 .name,
 .title {
-  margin-left: 1rem;
+    margin-left: 1rem;
+  }
 }
 
 .greeting {
   font-size: 1rem;
+  font-weight: 500;
 }
 
 .name {
-  font-size: 4rem;
-  font-weight: 750;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+@media (min-width: 56.25em) {
+  .name {
+    font-size: 4rem;
+  }
 }
 
 .title {
-  color: hsl(220deg, 70%, 50%);
+  color: hsl(230deg, 30%, 20%);
   font-size: 2rem;
-  font-weight: 600;
-  padding-left: 1rem;
+  font-weight: 700;
+}
+@media (min-width: 56.25em) {
+  .title {
+    padding-left: 1rem;
+  }
 }
 
 .brief {
   color: hsl(240deg, 75%, 60%);
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
+}
+@media (min-width: 56.25em) {
+  .brief {
+    font-size: 2rem;
+  }
 }
 
 .action-button {
   font-size: 0.8rem;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin: 1rem auto;
   color: hsl(230deg, 75%, 95%);
-  background-color: hsl(220deg, 70%, 50%);
+  background-color: hsl(240deg, 75%, 60%);
   border-radius: 1.5rem;
   padding: 1rem 2rem;
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  margin: 1rem auto;
 }/*# sourceMappingURL=Hero.module.css.map */

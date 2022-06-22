@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap");
 /* offset-x | offset-y | blur-radius | spread-radius | color */
 html {
   font-size: 100%;
@@ -67,13 +68,17 @@ img {
 }
 body {
   font-size: 18px;
-  font-family: "Work Sans", sans-serif;
-  color: hsl(230deg, 40%, 25%);
+  font-family: "Syne", sans-serif;
+  color: hsl(230deg, 30%, 20%);
   background: linear-gradient(30deg, hsl(220deg, 95%, 80%) 0%, hsl(220deg, 70%, 85%) 15%, hsl(205deg, 60%, 90%) 50%, hsl(220deg, 90%, 80%) 100%);
 }
 
 main {
-  margin-top: 8vh;
+  padding: 8vh 0 1rem 0;
+}
+
+section {
+  padding: 0 1rem;
 }
 
 button {
