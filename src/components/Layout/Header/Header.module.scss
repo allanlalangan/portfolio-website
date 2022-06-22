@@ -97,7 +97,7 @@
     // on mobile
     display: none;
 
-    @include mixins.button-text();
+    @include mixins.action-button-text();
     text-transform: uppercase;
 
     @include mixins.breakpoint('>=sm') {
@@ -105,7 +105,7 @@
       margin: 0;
       padding: 0;
 
-      border-bottom: 2px solid colors.$sec;
+      border-bottom: 3px solid colors.$sec;
     }
     @include mixins.breakpoint('>=md') {
       @include mixins.flex-row();

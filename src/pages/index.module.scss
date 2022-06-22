@@ -7,5 +7,6 @@
 }
 
 .action-button {
-  @include mixins.filled-button(colors.$sec);
+  @include mixins.filled-button(colors.$sec, 1rem, 2rem, 1.5rem);
+  @include mixins.action-button-text();
 }

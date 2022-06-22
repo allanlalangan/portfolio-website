@@ -7,6 +7,13 @@
   }
 }
 
+@mixin flex($direction, $justifyContent, $alignItems) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
+
 @mixin flex-row() {
   display: flex;
 }
@@ -16,21 +23,17 @@
   flex-direction: column;
 }
 
-@mixin button-text() {
+@mixin action-button-text() {
   font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-@mixin filled-button($backgroundColor) {
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+@mixin filled-button($backgroundColor, $pY, $pX, $borderRad) {
   color: colors.$contrastText;
   background-color: $backgroundColor;
-  border-radius: 1.5rem;
-  padding: 1rem 2rem;
+  border-radius: $borderRad;
+  padding: $pY $pX;
 }
 
 @mixin shadow($offsetX, $offsetY, $blur, $spread, $alpha) {

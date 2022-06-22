@@ -1,5 +1,13 @@
 @use '../../styles/abstracts/colors' as colors;
 
+.project-header {
+  width: fit-content;
+
+  .project-header__title {
+    padding: 0.5rem 0;
+  }
+}
+
 .feature {
   display: flex;
 }

@@ -74,7 +74,7 @@
   }
 }
 .menu-button__container .menu-button {
-  color: hsl(230deg, 30%, 20%);
+  color: hsl(220deg, 25%, 15%);
   display: flex;
   flex-direction: column;
 }
@@ -118,7 +118,7 @@
     height: 100%;
     margin: 0;
     padding: 0;
-    border-bottom: 2px solid hsl(240deg, 75%, 60%);
+    border-bottom: 3px solid hsl(240deg, 75%, 60%);
   }
 }
 @media (min-width: 56.25em) {

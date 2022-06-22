@@ -4,12 +4,12 @@
 }
 
 .action-button {
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-transform: uppercase;
   color: hsl(230deg, 75%, 95%);
   background-color: hsl(240deg, 75%, 60%);
   border-radius: 1.5rem;
   padding: 1rem 2rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=index.module.css.map */

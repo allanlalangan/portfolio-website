@@ -1,0 +1,35 @@
+.button-group {
+  display: flex;
+  width: 100%;
+}
+.button-group .button-divider {
+  width: 1px;
+  height: 100%;
+  background-color: hsl(215deg, 75%, 80%);
+}
+.button-group .project-link-button {
+  width: 100%;
+  color: hsl(230deg, 75%, 95%);
+  background-color: hsl(230deg, 35%, 25%);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button-group .project-link-button .project-link-button__icon {
+  display: flex;
+  font-size: 1.5rem;
+}
+.button-group .project-link-button .project-link-button__text {
+  padding: 0 0.5rem;
+}
+.button-group .project-link-button--github {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.button-group .project-link-button--live {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}/*# sourceMappingURL=ProjectLinks.module.css.map */

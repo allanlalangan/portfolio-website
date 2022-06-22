@@ -1,9 +1,15 @@
+import ProjectLinks from '../ProjectLinks/ProjectLinks';
 import styles from './FeaturedProject.module.scss';
 
 const FeaturedProject = () => {
   return (
     <section className={styles.container}>
-      <h2>Nomad Travel Companion</h2>
+      <article className={styles['project-header']}>
+        <h2 className={styles['project-header__title']}>
+          Nomad Travel Companion
+        </h2>
+        <ProjectLinks />
+      </article>
       <article>
         <figure className={styles.feature}>
           <div className={styles.previews}></div>
