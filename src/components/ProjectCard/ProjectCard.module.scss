@@ -1,27 +1,21 @@
 @use '../../styles/abstracts/colors' as colors;
-@use '../../styles/abstracts/mixins' as mixins;
 
-.project__previews--container {
-  @include mixins.flex-row();
-}
+.project-header {
+  width: fit-content;
 
-.project__previews {
-  border: 1px solid colors.$text;
-  border-radius: 0.5rem;
-}
-.project__previews-lg {
-  height: 250px;
-  width: 400px;
-}
-.project__previews-sm {
-  height: 13rem;
-  width: 15%;
+  .project-header__title {
+    padding: 0.5rem 0;
+  }
 }
 
-.project__tech {
+.feature {
   display: flex;
 }
 
-.project__tech__item {
-  padding-left: 1rem;
+.previews {
+  border: 1px solid colors.$prim;
+  border-radius: 0.5rem;
+  width: 50%;
+  height: 400px;
+  margin: 1rem;
 }

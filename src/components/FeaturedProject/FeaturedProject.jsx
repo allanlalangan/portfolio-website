@@ -21,11 +21,6 @@ const FeaturedProject = () => {
 
         <figure className={styles.feature}>
           <div className={styles.previews}></div>
-          <p>Mobile responsive</p>
-        </figure>
-
-        <figure className={styles.feature}>
-          <div className={styles.previews}></div>
           <p>
             With the help of Material UI and its components, users receive
             feedback with loading and status indicators, tooltips and modals for

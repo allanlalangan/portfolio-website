@@ -32,6 +32,12 @@ const Skills = () => {
       <img
         alt='icon'
         className={styles['svg-icon']}
+        src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg'
+      />
+
+      <img
+        alt='icon'
+        className={styles['svg-icon']}
         src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg'
       />
 

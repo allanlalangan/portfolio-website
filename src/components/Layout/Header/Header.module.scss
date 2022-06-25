@@ -47,7 +47,7 @@
 .home-icon {
   font-size: 2.5rem;
   @include mixins.breakpoint('>=sm') {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   display: flex;
   background-color: colors.$bg;

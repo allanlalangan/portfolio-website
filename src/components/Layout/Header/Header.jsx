@@ -30,7 +30,7 @@ const Header = () => {
       </aside>
       <nav className={styles['nav']}>
         <ul className={styles['nav-links']}>
-          <Link to='/'>
+          <Link to='/about'>
             <li className={styles['nav-links__link']}>me</li>
           </Link>
           <Link to='/'>

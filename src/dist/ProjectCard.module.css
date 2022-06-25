@@ -1,26 +1,20 @@
-.project__previews--container {
+.project-header {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.project-header .project-header__title {
+  padding: 0.5rem 0;
+}
+
+.feature {
   display: flex;
 }
 
-.project__previews {
-  border: 1px solid hsl(220deg, 25%, 15%);
+.previews {
+  border: 1px solid hsl(210deg, 70%, 50%);
   border-radius: 0.5rem;
-}
-
-.project__previews-lg {
-  height: 250px;
-  width: 400px;
-}
-
-.project__previews-sm {
-  height: 13rem;
-  width: 15%;
-}
-
-.project__tech {
-  display: flex;
-}
-
-.project__tech__item {
-  padding-left: 1rem;
+  width: 50%;
+  height: 400px;
+  margin: 1rem;
 }/*# sourceMappingURL=ProjectCard.module.css.map */

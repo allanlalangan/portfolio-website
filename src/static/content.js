@@ -1,7 +1,7 @@
 export const about = {
   name: 'Allan Lalangan',
   alias: 'Allan LaDev',
-  title: 'Web Developer',
+  title: 'Front End Developer',
   greeting: 'Hello, World! I am',
   brief: 'Responsive, beautiful, intuitive and fun user experiences',
   brief_2: 'I build things!',
@@ -159,12 +159,12 @@ export const skills = [
 ];
 
 export const projects = [
-  // {
-  //   title: 'Nomad Travel',
-  //   description:
-  //     'SPA created with GoogleMaps and Travel APIs. Fetches popular restaurants, hotels, and attractions within map window boundaries. Autocomplete search allows users to quickly search and navigate anywhere on the map. Places marked on the map can be filtered by rating, price and other categories.',
-  //   tech: ['react', 'css', 'materialui', 'api', 'google maps'],
-  // },
+  {
+    title: 'Nomad Travel',
+    description:
+      'SPA created with GoogleMaps and Travel APIs. Fetches popular restaurants, hotels, and attractions within map window boundaries. Autocomplete search allows users to quickly search and navigate anywhere on the map. Places marked on the map can be filtered by rating, price and other categories.',
+    tech: ['react', 'css', 'materialui', 'api', 'google maps'],
+  },
   // {
   //   title: 'project.Me',
   //   description:
