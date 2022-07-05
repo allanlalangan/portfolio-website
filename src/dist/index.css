@@ -86,12 +86,14 @@ button {
   cursor: pointer;
 }
 
-.container {
+.grid-container {
   width: 100%;
   max-width: 75em;
+  box-sizing: border-box;
 }
 
-.row {
+.grid-row {
+  background-color: "white";
   display: flex;
   flex-flow: row wrap;
 }
