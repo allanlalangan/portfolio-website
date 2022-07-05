@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap");
 /* offset-x | offset-y | blur-radius | spread-radius | color */
 html {
   font-size: 100%;
@@ -64,19 +65,9 @@ img {
     scroll-behavior: auto !important;
   }
 }
-@font-face {
-  font-family: "Gilroy";
-  src: url("../../../public/assets/fonts/Gilroy-Light.otf") format("opentype");
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Gilroy";
-  src: url("../../../public/assets/fonts/Gilroy-ExtraBold.otf") format("opentype");
-  font-weight: bold;
-}
 body {
   font-size: 18px;
-  font-family: "Gilroy", sans-serif;
+  font-family: "Syne", sans-serif;
   color: hsl(220deg, 25%, 15%);
   background: linear-gradient(30deg, hsl(220deg, 95%, 80%) 0%, hsl(220deg, 70%, 85%) 25%, hsl(205deg, 60%, 90%) 85%, hsl(220deg, 90%, 80%) 100%);
 }
