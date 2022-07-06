@@ -1,4 +1,4 @@
-@use '../../styles/abstracts/mixins' as mixins;
+@use '../abstracts/mixins' as mixins;
 @use 'sass:math';
 
 $grid-columns: 12;
@@ -10,7 +10,6 @@ $grid-columns: 12;
 }
 
 .grid-row {
-  background-color: 'white';
   display: flex;
   flex-flow: row wrap;
 }
