@@ -179,21 +179,21 @@ export const projects = [
   //     'authentication',
   //   ],
   // },
-  // {
-  //   title: 'La Bodega',
-  //   description:
-  //     'E-commerce app that allows registered users to add items to a cart or wishlist, and rate and review products. Products data is fetched. App accepts mock payment with Stripe.',
-  //   tech: ['next.js', 'react', 'css', 'rest', 'stripe'],
-  // },
+  {
+    title: 'La Bodega',
+    description:
+      'E-commerce app that allows registered users to add items to a cart or wishlist, and rate and review products. Products are managed with Shopify and Sanity IO headless CMS',
+    tech: ['react', 'scss', 'rest', 'stripe'],
+  },
   // {
   //   title: 'Martial Masters Academy',
   //   description: 'A website for the best martial arts gym in all of Portland.',
   //   tech: ['next.js', 'react', 'css', 'api', 'stripe'],
   // },
-  {
-    title: 'Portfolio',
-    description:
-      'This website was built with React. Styled and designed by me with CSS3. An ongoing labor of love.',
-    tech: ['react', 'css', 'framer motion'],
-  },
+  // {
+  //   title: 'Portfolio',
+  //   description:
+  //     'This website was built with React. Styled and designed by me with CSS3. An ongoing labor of love.',
+  //   tech: ['react', 'css', 'framer motion'],
+  // },
 ];
