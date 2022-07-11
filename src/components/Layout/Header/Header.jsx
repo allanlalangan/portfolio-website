@@ -9,12 +9,13 @@ const Header = () => {
     <header className={styles['header']}>
       <div className={styles['main-banner']}>
         <Link className={styles['home-link']} to='/'>
-          <h1 className={styles.logo}>
+          <figure className={styles.logo}>
             <GiBullHorns
               style={{ fill: 'url(#logo-gradient)' }}
               className={styles['home-icon']}
             />
-          </h1>
+            <span className={styles['main-title']}>Dev</span>
+          </figure>
         </Link>
       </div>
       <svg position='absolute' width='0' height='0'>
