@@ -3,7 +3,7 @@ import { FaGithub, FaLink } from 'react-icons/fa';
 
 const ProjectLinks = () => {
   return (
-    <section className={styles.container}>
+    <section className={`${styles.container} col-6-md`}>
       <div className={styles['button-group']}>
         <button
           className={`${styles['project-link-button']} ${styles['project-link-button--github']}`}
@@ -18,9 +18,7 @@ const ProjectLinks = () => {
           className={`${styles['project-link-button']} ${styles['project-link-button--live']}`}
         >
           <FaLink className={styles['project-link-button__icon']} />
-          <span className={styles['project-link-button__text']}>
-            Live Website
-          </span>
+          <span className={styles['project-link-button__text']}>Live Demo</span>
         </button>
       </div>
     </section>

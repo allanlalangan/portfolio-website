@@ -86,6 +86,7 @@
 
 .nav {
   display: none;
+
   @include mixins.breakpoint('>=sm') {
     @include mixins.flex-row();
     width: 50%;
@@ -98,7 +99,9 @@
     @include mixins.flex-row();
     width: 35%;
   }
+
   height: 100%;
+
   .nav-links {
     width: 100%;
     // on mobile
@@ -112,13 +115,15 @@
       margin: 0;
       padding: 0;
 
-      border-bottom: 3px solid colors.$prim;
+      border-bottom: 3px solid colors.$sec;
     }
+
     @include mixins.breakpoint('>=md') {
       @include mixins.flex-row();
       justify-content: center;
       align-items: center;
     }
+
     .nav-links__link {
       padding: 0 1rem;
       @include mixins.flex-row();

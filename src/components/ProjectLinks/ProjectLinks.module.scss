@@ -2,7 +2,7 @@
 @use '../../styles/abstracts/mixins' as mixins;
 
 .container {
-  width: 50%;
+  // width: 50%;
 }
 
 .button-group {
@@ -17,7 +17,9 @@
 
   .project-link-button {
     width: 100%;
-    @include mixins.filled-button(colors.$bg--dark, 0.5rem, 1rem, 0.5rem);
+    // @include mixins.filled-button(colors.$bg--dark, 0.5rem, 1rem, 0.5rem);
+    @include mixins.filled-button(colors.$bg--dark, 1rem, 2rem, 1.5rem);
+    @include mixins.action-button-text();
     @include mixins.flex(row, center, center);
 
     .project-link-button__icon {
