@@ -1,4 +1,4 @@
-import { SiNextdotjs } from 'react-icons/si';
+import { SiNextdotjs, SiSass } from 'react-icons/si';
 import styles from './About.module.scss';
 
 const About = () => {
@@ -7,17 +7,29 @@ const About = () => {
       <h2>Hello</h2>
       <p className={styles['']}>
         I'm Allan; a Portland, OR based front end developer and a life long
-        learner who fell in love with programming along the way. I build
-        mobile-responsive web apps that ensure a satisfying and accessible user
-        experience. All styled, themed and designed by me.
+        learner. I build responsive web apps that are easy to use, intuitive and
+        fun, all while ensuring an accessible user experience. All styled,
+        themed and designed by me.
       </p>
 
       <h2>What I am currently learning:</h2>
       <p>ARIA and accessibility</p>
-      <figure>
-        <SiNextdotjs size={'3rem'} />
-        <figcaption>Next.js</figcaption>
-      </figure>
+      <article>
+        <figure>
+          <SiSass size={'3rem'} />
+          <figcaption>Sass</figcaption>
+        </figure>
+
+        <p>I'm always brushing up o</p>
+      </article>
+      <article>
+        <figure>
+          <SiNextdotjs size={'3rem'} />
+          <figcaption>Next.js</figcaption>
+          <p></p>
+        </figure>
+        <p></p>
+      </article>
       <p></p>
     </section>
   );
