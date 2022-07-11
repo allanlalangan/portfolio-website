@@ -20,6 +20,10 @@
 .main-banner {
   width: 100%;
   padding: 0 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 @media (min-width: 37.5em) {
   .main-banner {
@@ -28,19 +32,27 @@
     width: fit-content;
   }
 }
-.main-banner .home-link {
+.main-banner .logo {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
-.logo {
+.main-title {
+  font-weight: 900;
+  font-size: 1.75rem;
+}
+
+.alias {
+  font-weight: 800;
+  font-size: 1.75rem;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 @media (min-width: 37.5em) {
-  .logo {
+  .alias {
     justify-content: space-between;
   }
 }

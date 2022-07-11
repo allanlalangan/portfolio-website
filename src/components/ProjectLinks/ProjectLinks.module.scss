@@ -1,12 +1,16 @@
 @use '../../styles/abstracts/colors' as colors;
 @use '../../styles/abstracts/mixins' as mixins;
 
+.container {
+  width: 50%;
+}
+
 .button-group {
   @include mixins.flex-row();
   width: 100%;
 
   .button-divider {
-    width: 1px;
+    width: 2px;
     height: 100%;
     background-color: colors.$divider;
   }
