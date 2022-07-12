@@ -1,6 +1,6 @@
-@use '../../styles/abstracts/colors' as colors;
-@use '../../styles/abstracts/variables' as var;
-@use '../../styles/abstracts/mixins' as mixins;
+@use '../../scss/abstracts/colors' as colors;
+@use '../../scss/abstracts/variables' as var;
+@use '../../scss/abstracts/mixins' as mixins;
 
 .hero {
   height: var.$mainContentHeight;

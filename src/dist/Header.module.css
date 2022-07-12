@@ -42,6 +42,12 @@
 .main-title {
   font-weight: 900;
   font-size: 1.75rem;
+  display: none;
+}
+@media (min-width: 37.5em) {
+  .main-title {
+    display: flex;
+  }
 }
 
 .alias {
@@ -130,7 +136,7 @@
     height: 100%;
     margin: 0;
     padding: 0;
-    border-bottom: 3px solid hsl(240deg, 75%, 60%);
+    border-bottom: 3px solid hsl(215deg, 85%, 50%);
   }
 }
 @media (min-width: 56.25em) {
